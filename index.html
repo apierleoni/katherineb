@@ -1,0 +1,392 @@
+<!--[if HTML5]><![endif]-->
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="ie ie6 ie-lte9 ie-lte8 ie-lte7 no-js" lang="it"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7 ie-lte9 ie-lte8 ie-lte7 no-js" lang="it"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8 ie-lte9 ie-lte8 no-js" lang="it"> <![endif]-->
+<!--[if IE 9]><html class="ie9 ie-lte9 no-js" lang="it"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="it"> <!--<![endif]-->
+<head>
+    <title>Katherine B.</title>
+    <!-- www.phpied.com/conditional-comments-block-downloads/ -->
+    <!-- Always force latest IE rendering engine
+         (even in intranet) & Chrome Frame
+         Remove this if you use the .htaccess -->
+
+    <meta charset="utf-8"/>
+
+    <!-- http://dev.w3.org/html5/markup/meta.name.html -->
+    <meta name="application-name" content="katherineb"/>
+
+    <!-- Speaking of Google, don't forget to set your site up:
+         http://google.com/webmasters -->
+    <meta name="google-site-verification" content=""/>
+
+    <!--  Mobile Viewport Fix
+          j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag
+          device-width: Occupy full width of the screen in its current orientation
+          initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+          user-scalable = yes allows the user to zoom in -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+
+    <!-- All JavaScript at the bottom, except for Modernizr which enables
+         HTML5 elements & feature detects -->
+    <script src="js/modernizr.custom.js"></script>
+
+    <!-- CSS Files -->
+
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/flexslider.css"/>
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/owl.carousel.css"/>
+    <link rel="stylesheet" href="css/prettyPhoto.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
+    <link rel="stylesheet" href="css/player/YTPlayer.css"/>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.5.1/fotorama.css" rel="stylesheet">
+
+
+    <!-- End CSS Files -->
+
+</head>
+
+
+<body data-spy="scroll" data-target=".nav-menu" data-offset="50">
+
+<div id="pageloader">
+    <div class="loader-item">
+        <img src="images/loading.gif" alt='loader'/>
+    </div>
+</div>
+
+
+<!-- Home Section -->
+<section id="home" class="nav-link">
+
+    <!-- Slider -->
+    <div id="slides">
+        <div class="slides-container">
+
+            <!-- Slider Images -->
+            <div class="image1 pattern"></div>
+            <div class="image2 pattern"></div>
+            <div class="image3 pattern"></div>
+            <!-- End Slider Images -->
+
+        </div>
+
+        <!-- Slider Controls -->
+
+        <nav class="slides-navigation">
+            <a href="#" class="next"></a>
+            <a href="#" class="prev"></a>
+        </nav>
+
+        <!-- End Slider Controls -->
+
+    </div>
+    <!-- End Slider Images -->
+
+    <!-- Main - Text Slide -->
+
+
+    <div class=" main">
+
+
+        <!-- Text Slider -->
+        <div class="flexslider home-slider">
+
+            <!-- Text Slides -->
+            <ul class="home-slides">
+                <li>Katherine <span>B</span></li>
+                <li><span>m</span>oda</li>
+                <li>dal <span>1983</span></li>
+            </ul>
+            <!-- End Text Slides -->
+
+            <div class="clear"></div>
+
+        </div>
+
+        <!-- Home Description -->
+        <div class="home-desc">Via Corradini, Avezzano</div>
+        <!-- End Home Description -->
+
+        <!-- Home Button -->
+        <a class="scroll home-button" href="#foto">INIZIA</a>
+        <!-- End Home Button -->
+
+    </div>
+    <!-- End Main -->
+
+</section>
+<!-- End Home Section -->
+
+<!-- Navigation Section -->
+<section id="navigation" class="shadow">
+
+    <div class="inner navigation">
+
+        <!-- Logo Img -->
+        <div class="logo">
+            <a class="scroll" href="#home"><img src="images/logo.jpg" alt="Logo"/></a>
+        </div>
+
+        <!-- Nav Menu -->
+        <div class="nav-menu">
+
+            <ul class="nav main-nav">
+
+                <li class="active"><a class="scroll" href="#home">home</a></li>
+                <li><a class="scroll" href="#foto">foto</a></li>
+                <!--<li><a class="scroll" href="#facebook">facebook</a></li>-->
+                <!--<li><a class="scroll" href="#blog">blog</a></li>-->
+                <li><a class="scroll" href="#contact">contact</a></li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- Dropdown Menu For Mobile Devices-->
+        <div class="dropdown mobile-drop">
+            <a data-toggle="dropdown" class="mobile-menu" href="#"><i class="fa fa-bars"></i></a>
+            <ul class="nav dropdown-menu fullwidth" role="menu">
+                <li class="active"><a class="scroll" href="#home">home</a></li>
+                <li><a class="scroll" href="#foto">foto</a></li>
+                <!--<li><a class="scroll" href="#facebook">facebook</a></li>-->
+                <!--<li><a class="scroll" href="#blog">blog</a></li>-->
+                <li><a class="scroll" href="#contact">contact</a></li>
+            </ul>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+
+</section>
+<!-- End Navigation Section -->
+
+
+<!-- About Section -->
+<section id="foto" class="contain nav-link">
+
+    <div class="inner">
+
+        <!-- Portfolio Top Icon
+        <div class="contain-logo br">
+            <i class="fa fa-photo "></i>
+        </div>-->
+
+        <!-- Header -->
+        <div class="header">
+            Le nostre foto
+        </div>
+
+        <!-- Second Header -->
+        <div class="page-desc">
+            <a href="http://www.facebook.com/katherineb.avezzano">Seguici su facebook</a>
+            <br/>
+            <div style="width: 50%; margin: 0 auto;">
+                <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.katherineb.it&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=681593045220390"
+                        scrolling="no" frameborder="0"
+                        style="width: 50%; margin: 0 auto; border:none; overflow:hidden; height:21px;"
+                        allowTransparency="true"></iframe>
+            </div>
+        </div>
+
+        <div id="photos" class="fotorama">
+          </div>
+
+    </div>
+
+
+</section><!-- End About Section -->
+
+<section id="contact" class="contain nav-link">
+
+
+    <!--Contact Form -->
+    <div class="contact-form">
+
+        <form id="contact-us" method="post" action="/">
+
+            <!--Contact Header -->
+            <h1 class="contact-us">Contattaci</h1>
+            <!-- Name Input -->
+            <input type="text" name="name" id="name" required="required" class="form" placeholder="Nome"/>
+            <!-- Email Input -->
+            <input type="email" name="email" id="email" required="required" class="form" placeholder="Email"/>
+            <!-- Subject Input -->
+            <input type="text" name="subject" id="subject" class="form" placeholder="Oggetto"/>
+            <!-- Message Area -->
+            <textarea name="message" id="message" class="form textarea" placeholder="Messaggio"></textarea>
+            <!-- Send Button -->
+            <button type="submit" id="submit" name="submit" class="form-btn"><i class="fa fa-envelope"></i></button>
+
+        </form>
+
+    </div><!-- End Contact Form -->
+
+    <!-- Contact Top Icon -->
+    <div class="contain-logo contact-logo">
+        <i class="fa fa-map-marker "></i>
+    </div>
+
+    <!-- Google Map -->
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyGeC3g9bjaBX25vVzNuAGR0j72o-k050&callback=initMap"
+            type="text/javascript"></script>
+
+    <div id="map"></div>
+    <!-- End Google Map -->
+
+</section><!-- End Contact Section -->
+
+<!-- End Home Section -->
+
+
+<!-- Footer Section -->
+<section id="footer">
+
+    <div class="inner footer">
+
+        <!-- Phone -->
+        <div class="col-xs-4 footer-box animated" data-animation="flipInY" data-animation-delay="0">
+            <a class="footer-links">
+                <i class="fa fa-mobile"></i>
+            </a>
+
+            <p class="footer-text">
+                <span>Telefono: </span>:<span>0863 33139</span>
+            </p>
+        </div>
+
+        <!-- Socials and Mail -->
+        <div class="col-xs-4 footer-box animated" data-animation="flipInY" data-animation-delay="0">
+
+            <!-- Social 1 -->
+            <a class="footer-links" href="http://www.facebook.com/katherineb.avezzano">
+                <i class="fa fa-facebook"></i>
+            </a>
+
+            <!--&lt;!&ndash; Social 2 &ndash;&gt;-->
+            <!--<a class="footer-links">-->
+            <!--<i class="fa fa-twitter"></i>-->
+            <!--</a>-->
+            <!---->
+            <!--&lt;!&ndash; Social 3 &ndash;&gt;-->
+            <!--<a class="footer-links">-->
+            <!--<i class="fa fa-google-plus"></i>-->
+            <!--</a>-->
+            <!---->
+            <!--&lt;!&ndash; Social 4 &ndash;&gt;-->
+            <!--<a class="footer-links">-->
+            <!--<i class="fa fa-pinterest"></i>-->
+            <!--</a>-->
+
+            <!-- Mail -->
+            <p class="footer-text">
+                <span>Mail</span>:<span><a href="mailto:info@katherineb.it">info@katherineb.it</a></span>
+            </p>
+
+            <!-- Copyright -->
+            <p class="footer-text copyright">
+                ©2014 NOVA K srl.
+            </p>
+        </div>
+
+        <!-- Address -->
+        <div class="col-xs-4 footer-box animated" data-animation="flipInY" data-animation-delay="0">
+
+            <!-- Icon -->
+            <a class="footer-links" href="http://goo.gl/maps/ahFm7">
+                <i class="fa fa-map-marker"></i>
+            </a>
+
+            <p class="footer-text">
+                NOVA K srl Via Corradini 69 - 67051 Avezzano (AQ) - P.IVA 1905940662
+            </p>
+        </div>
+
+        <div class="clear"></div>
+    </div> <!-- End Footer inner -->
+
+</section><!-- End Footer Section -->
+
+<!-- Back To Top Button -->
+<section id="back-top">
+    <a href="index.html#home" class="scroll"></a>
+</section>
+<!-- End Back To Top Button -->
+
+<!-- JS Files -->
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.map"></script>-->
+
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery.appear.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/modernizr-latest.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.superslides.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/jquery.sticky.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/rev-slider/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="js/plugins.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.5.1/fotorama.js"></script>
+
+<script type="text/javascript">
+    function jsonFlickrApi(response) {
+        console.log(
+                "Got response from Flickr-API with the following photos: %o",
+                response.photos
+        );
+        var div = document.getElementById('photos');
+        var photoLength = response.photos['photo'].length;
+
+        for (var i = 0; i < photoLength; i++) {
+            var img = new Image();
+            img.src = 'http://farm' + response.photos.photo[i]['farm'] + '.static.flickr.com/' + response.photos.photo[i]['server'] + '/' + response.photos.photo[i]['id'] + '_' + response.photos.photo[i]['secret'] + '_b.jpg';
+            div.appendChild(img);
+        }
+        return response.photos
+    }
+    function load_photos() {
+
+        $.ajax({
+            type: "GET",
+            url: "https://api.flickr.com/services/rest/?&method=flickr.people.getPublicPhotos&api_key=4ef2fe2affcdd6e13218f5ddd0e2500d&user_id=123723989@N02&format=json&per_page=50",
+            success: function (data, textStatus, XMLHttpRequest) {
+
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+            }
+        });
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        load_photos()
+
+    });
+</script>
+<!-- End JS Files -->
+
+
+</body>
+
+</html>
